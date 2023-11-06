@@ -2,33 +2,33 @@
 Sebuah perusahaan dapat berkembang dengan pesat saat mengetahui perilaku customer personality nya, sehingga dapat memberikan layanan serta manfaat lebih baik kepada customers yang berpotensi menjadi loyal customers. Dengan mengolah data historical marketing campaign guna menaikkan performa dan menyasar customers yang tepat agar dapat bertransaksi di platform perusahaan, dari insight data tersebut fokus kita adalah membuat sebuah model prediksi kluster sehingga memudahkan perusahaan dalam membuat keputusan
 
 ## Exploratory Data Analysis
-- Hubungan kolom Income dengan Conversion rate
-<gambar>
+**Hubungan kolom Income dengan Conversion rate**
+![Hubungan kolom Income dengan Conversion rate](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/fa79f438-c79f-485f-9437-ed9c2b342a4b)
   
-- Hubungan kolom Income dengan recency
-<gambar>
+**Hubungan kolom Income dengan recency**
+![Hubungan kolom Income dengan recency](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/6647685f-08bb-48b9-add3-065c9d144737)
 
-- Hubungan kolom Income and fequency
-<gambar>
+**Hubungan kolom Income and frequency**
+![Hubungan kolom Income and fequency](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/1c24af0d-7234-4695-8f88-2dfe1683803f)
 
-- Hubungan kolom Income dengan Monetary
-<gambar>
+**Hubungan kolom Income dengan Monetary**
+![Hubungan kolom Income dengan Monetary](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/ec57386a-8949-43ea-bc29-785bf82cb6d4)
 
-- Hubungan kolom Usia dengan Conversion Rate
-<gambar>
+**Hubungan kolom Usia dengan Conversion Rate**
+![Hubungan kolom Usia dengan Conversion Rate](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/236c030c-489a-4f75-ad95-17baa5de4f2b)
 
-- Hubungan kolom Usia dengan recency
-<gambar>
+**Hubungan kolom Usia dengan recency**
+![Hubungan kolom Income dengan recency](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/7a052ccb-1c87-406b-b33e-ad2383a1a973)
 
-- Hubungan kolom Usia dengan frequency
-<gambar>
+**Hubungan kolom Usia dengan frequency**
+![Hubungan kolom Usia dengan frequency](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/8b557099-f6a8-4eb0-878a-50f1f4df6b5c)
 
-- Hubungan kolom Usia dengan Monetary
-<gambar>
+**Hubungan kolom Usia dengan Monetary**
+![Hubungan kolom Usia dengan Monetary](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/5d0fbf60-65ca-4410-8842-86debe61165b)
 
-- Hubungan kolom Usia dengan Income
-<gambar>
 
+**Hubungan kolom Usia dengan Income**
+![Hubungan kolom Usia dengan Income](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/e2c83f87-14ea-447e-a83d-13fa8738a7ec)
 
 **Interpretasi EDA** <br>
 semakin besar income maka conversion rate, frequency dan monetary mengalami peningkatan. sementara untuk fitur recency menyebar secara merata untuk semua kategori income. Sementara itu covesion rate, recency, frequency, dan monetary menyebar secara merata untuk semua kategory usia
@@ -40,18 +40,18 @@ semakin besar income maka conversion rate, frequency dan monetary mengalami peni
 - Teknik Feature Scaling yang diterapkan adalah Standarization, yang memberikan dasar yang kokoh untuk analisis yang lebih mendalam.
 
 ## Data Modeling
-- Fitur yang akan digunakan dalam modeling adalah 'Recency' yang mewakili recency, 'Total_Purchases' yang mewakili frequency, dan	'Total_Spend' yang mewakili monetary
-  <gambar>
+![Fitur yang akan digunakan](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/a4110c2a-2757-475c-b08b-347426d334c9)
 
-- Berdasarkan Elbow Method didapatkan hasil 3 jumlah cluster
-<gambar>
+Fitur yang akan digunakan dalam modeling adalah 'Recency' yang mewakili recency, 'Total_Purchases' yang mewakili frequency, dan	'Total_Spend' yang mewakili monetary
+ 
+![Elbow Method](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/894dc0b6-1e52-4290-9812-c0c817fd6ca3)
+![Clustering](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/70085e6f-eaa5-4421-8b6f-128cb54dd9bf)
 
+Berdasarkan Elbow Method didapatkan hasil 3 jumlah cluster dan model yang dipilih untuk pemodelan adalah Kmeans Clustering
 
-- Model yang dipilih untuk pemodelan adalah Kmeans Clustering
-<gambar>
+![Silhouette Score](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/983e0f37-f00a-4b0c-8e89-e8c3cc4a497f)
 
-
-- Hasil evaluasi model memperoleh Silhouette Score sebesar 0.50. yang menandakan model ini mampu memisahkan cluster secara optimal
+Hasil evaluasi model memperoleh Silhouette Score sebesar 0.50. yang menandakan model ini mampu memisahkan cluster secara optimal
 <gambar>
 
 
@@ -94,12 +94,15 @@ Berikut adalah informasi terperinci tentang Cluster 1:
 -	**Profil Demografis**: Mayoritas anggota cluster ini adalah orang tua yang sudah memiliki anak.
 
 ## Menghitung potential impact dari hasil marketing retargeting dari cluster yang ada
-- Rata Rata Recency Antar Cluster
-  <gambar>
-- Rata Rata Frequency Antar Cluster
-  <gambar>
-- Rata Rata Monetary Antar Cluster
-  <gambar>
+**Rata Rata Recency Antar Cluster** <br>
+![Rata Rata Recency Antar Cluster](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/2ecb04e0-ae37-4865-b7db-dbd7e97399dd)
+
+**Rata Rata Frequency Antar Cluster** <br>
+![Rata Rata Frequency Antar Cluster](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/24466ab8-1955-4f83-9423-21c503542ac1)
+
+**Rata Rata Monetary Antar Cluster** <br>
+![Rata Rata Monetary Antar Cluster](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/c250ec66-5581-4f47-bc07-4224afc8ef38)
+
 
 <br>
 
