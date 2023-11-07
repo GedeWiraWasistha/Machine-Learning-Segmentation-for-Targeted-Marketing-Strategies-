@@ -11,6 +11,9 @@ Membangun sebuah model klaster yang akan memberikan kemudahan bagi perusahaan da
 ## Business Metrics
 Recency, Frequency, Monetary (RFM)
 
+## Dataset 
+Data yang digunakan dalam analisis tersedia dalam berkas "marketing_campaign_data.csv". Yang terdiri dari 2240 baris, 30 kolom
+
 ## Exploratory Data Analysis (EDA)
 **Hubungan kolom Income dengan Conversion rate**
 ![Hubungan kolom Income dengan Conversion rate](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/fa79f438-c79f-485f-9437-ed9c2b342a4b)
