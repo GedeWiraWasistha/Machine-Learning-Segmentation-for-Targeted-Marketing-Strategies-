@@ -49,7 +49,7 @@ semakin besar income maka conversion rate, frequency dan monetary mengalami peni
 ## Data Cleaning & Preprocessing
 - Feature Engenering dilakuakan untuk mendapatkan kolom kolom baru. kolom baru tersebut diantaranya 'Conversion_Rate', 'Total_Children', 'Total_Purchases', 'Total_Spend', 'Age', 'Total_Campain_Accepted', 'Parents'
 - Terdapat kolom yang berisi nilai null yaitu kolom 'Income' dan kolom 'Conversion_Rate'. kolom 'Income' berisi 24 baris data null, hal ini diatasi dengan menggunakan mean. Sedangkan kolom 'Conversion_Rate' yang memiliki 11 bariss data null diatasi dengan menghapus data null tersebut
-- Teknik Feature Encoding yang diterapkan adalah Label Encoding pada kolom 'Education' dan kolom 'mapping_marital_status' , yang memberikan dasar yang kokoh untuk analisis yang lebih mendalam.
+- Teknik Feature Encoding yang diterapkan adalah Label Encoding pada kolom 'Education' dan kolom 'Marital_Status' , yang memberikan dasar yang kokoh untuk analisis yang lebih mendalam.
 - Teknik Feature Scaling yang diterapkan adalah Standarization, yang memberikan dasar yang kokoh untuk analisis yang lebih mendalam.
 
 ## Data Modeling
