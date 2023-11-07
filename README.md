@@ -1,7 +1,17 @@
 # Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning
 Sebuah perusahaan dapat berkembang dengan pesat saat mengetahui perilaku customer personality nya, sehingga dapat memberikan layanan serta manfaat lebih baik kepada customers yang berpotensi menjadi loyal customers. Dengan mengolah data historical marketing campaign guna menaikkan performa dan menyasar customers yang tepat agar dapat bertransaksi di platform perusahaan, dari insight data tersebut fokus kita adalah membuat sebuah model prediksi kluster sehingga memudahkan perusahaan dalam membuat keputusan
 
-## Exploratory Data Analysis
+## Latar Belakang
+- Memahami perilaku dan kepribadian pelanggan untuk memberikan pelayanan yang lebih baik kepada calon pelanggan setia.
+- Mengidentifikasi pelanggan yang tepat untuk meningkatkan efisiensi dalam strategi pemasaran dan mencapai target penjualan yang diinginkan.
+
+## Objective
+Membangun sebuah model klaster yang akan memberikan kemudahan bagi perusahaan dalam meningkatkan efektivitas kampanye pemasaran.
+
+## Business Metrics
+Recency, Frequency, Monetary (RFM)
+
+## Exploratory Data Analysis (EDA)
 **Hubungan kolom Income dengan Conversion rate**
 ![Hubungan kolom Income dengan Conversion rate](https://github.com/GedeWiraWasistha/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/assets/149849772/fa79f438-c79f-485f-9437-ed9c2b342a4b)
   
